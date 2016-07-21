@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Microsoft.AspNet.SignalR.Core</id>
-    <title>Microsoft ASP.NET SignalR Core Components</title>
+    <id>Configit.SignalR.Core</id>
+    <title>Configit SignalR Core Components</title>
     <version>__SIGNALR_PACKAGE_VERSION__</version>
     <authors>Microsoft</authors>
-    <owners>Microsoft</owners>
+    <owners>Configit</owners>
     <licenseUrl>__SIGNALR_LICENSE_URL__</licenseUrl>
     <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
-    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <projectUrl>http://github.com/configit/SignalR</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Core server components for ASP.NET SignalR.</description>
     <language>en-US</language>

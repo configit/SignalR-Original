@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Microsoft.AspNet.SignalR.SystemWeb</id>
-    <title>Microsoft ASP.NET SignalR System.Web</title>
+    <id>Configit.SignalR.SystemWeb</id>
+    <title>Configit SignalR System.Web</title>
     <version>__SIGNALR_PACKAGE_VERSION__</version>
     <authors>Microsoft</authors>
-    <owners>Microsoft</owners>
+    <owners>Configit</owners>
     <licenseUrl>__SIGNALR_LICENSE_URL__</licenseUrl>
     <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
-    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <projectUrl>http://github.com/configit/SignalR</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>
       Incredibly simple real-time web for .NET.
@@ -18,7 +18,7 @@
     <tags>Microsoft AspNet SignalR AspNetSignalR SystemWeb</tags>
     <releaseNotes>https://github.com/SignalR/SignalR/releases</releaseNotes>
     <dependencies>
-      <dependency id="Microsoft.AspNet.SignalR.Core" version="__SIGNALR_PACKAGE_VERSION__" />
+      <dependency id="Configit.SignalR.Core" version="__SIGNALR_PACKAGE_VERSION__" />
       <dependency id="Microsoft.Owin.Host.SystemWeb" version="__KATANA_PACKAGE_VERSION__" />
     </dependencies>
     <frameworkAssemblies>

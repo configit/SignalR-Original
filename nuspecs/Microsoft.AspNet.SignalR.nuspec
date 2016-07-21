@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Microsoft.AspNet.SignalR</id>
-    <title>Microsoft ASP.NET SignalR</title>
+    <id>Configit.SignalR</id>
+    <title>Configit SignalR</title>
     <version>__SIGNALR_PACKAGE_VERSION__</version>
     <authors>Microsoft</authors>
-    <owners>Microsoft</owners>
+    <owners>Configit</owners>
     <licenseUrl>__SIGNALR_LICENSE_URL__</licenseUrl>
     <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
-    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <projectUrl>http://github.com/configit/SignalR</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>
       Incredibly simple real-time web for .NET.
@@ -18,8 +18,8 @@
     <tags>Microsoft AspNet SignalR AspNetSignalR websockets real-time realtime comet HTTP streaming</tags>
     <releaseNotes>https://github.com/SignalR/SignalR/releases</releaseNotes>
     <dependencies>
-      <dependency id="Microsoft.AspNet.SignalR.JS" version="__SIGNALR_PACKAGE_VERSION__" />
-      <dependency id="Microsoft.AspNet.SignalR.SystemWeb" version="__SIGNALR_PACKAGE_VERSION__" />
+      <dependency id="Configit.SignalR.JS" version="__SIGNALR_PACKAGE_VERSION__" />
+      <dependency id="Configit.SignalR.SystemWeb" version="__SIGNALR_PACKAGE_VERSION__" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40" />

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Microsoft.AspNet.SignalR.JS</id>
-    <title>Microsoft ASP.NET SignalR JavaScript Client</title>
+    <id>Configit.SignalR.JS</id>
+    <title>Configit SignalR JavaScript Client</title>
     <version>__SIGNALR_PACKAGE_VERSION__</version>
     <authors>Microsoft</authors>
-    <owners>Microsoft</owners>
+    <owners>Configit</owners>
     <licenseUrl>__SIGNALR_CLIENT_LICENSE_URL__</licenseUrl>
     <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
-    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <projectUrl>http://github.com/configit/SignalR</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>JavaScript client for ASP.NET SignalR.</description>
     <language>en-US</language>
