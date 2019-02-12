@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Configit.SignalR.Client</id>
+    <title>Configit SignalR .NET Client</title>
+    <version>__SIGNALR_PACKAGE_VERSION__</version>
+    <authors>Configit/Microsoft</authors>
+    <owners>Configit/Microsoft</owners>
+    <licenseUrl>__SIGNALR_CLIENT_LICENSE_URL__</licenseUrl>
+    <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
+    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      [Configit Version]
+      .NET client for ASP.NET SignalR.</description>
+    <language>en-US</language>
+    <tags>Microsoft AspNet SignalR AspNetSignalR Client</tags>
+    <releaseNotes>https://github.com/configit/SignalR/releases</releaseNotes>
+    <dependencies>
+      <group targetFramework="net40">
+        <dependency id="Newtonsoft.Json" version="6.0.4" />
+      </group>
+      <group targetFramework="net45">
+        <dependency id="Newtonsoft.Json" version="6.0.4" />
+      </group>
+      <group targetFramework="portable-net45+sl5+netcore45+wp8">
+        <dependency id="Newtonsoft.Json" version="6.0.4" />
+        <dependency id="Microsoft.Net.Http" version="2.1.10" />
+      </group>
+      <group targetFramework="portable-wp81+wpa81">
+        <dependency id="Newtonsoft.Json" version="6.0.4" />
+        <dependency id="Microsoft.Net.Http" version="2.2.19" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Net40\Configit.SignalR.Client.dll" target="lib\net40" />
+    <file src="Net40\Configit.SignalR.Client.xml" target="lib\net40" />
+    <file src="Net45\Configit.SignalR.Client.dll" target="lib\net45" />
+    <file src="Net45\Configit.SignalR.Client.xml" target="lib\net45" />
+    <file src="portable-net45+sl5+netcore45+wp8+wp81+wpa81\Configit.SignalR.Client.dll" target="lib\portable-net45+sl5+netcore45+wp8+wp81+wpa81" />
+    <file src="portable-net45+sl5+netcore45+wp8+wp81+wpa81\Configit.SignalR.Client.xml" target="lib\portable-net45+sl5+netcore45+wp8+wp81+wpa81" />
+  </files>
+</package>

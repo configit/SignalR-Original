@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Configit.SignalR.Utils</id>
+    <title>Configit SignalR Utilities</title>
+    <version>__SIGNALR_PACKAGE_VERSION__</version>
+    <authors>Configit/Microsoft</authors>
+    <owners>Configit/Microsoft</owners>
+    <licenseUrl>__SIGNALR_LICENSE_URL__</licenseUrl>
+    <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
+    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      [Configit Version]
+      Command line utilities for ASP.NET SignalR, including performance counter installation and Hub JavaScript proxy generation.</description>
+    <language>en-US</language>
+    <tags>Microsoft AspNet SignalR AspNetSignalR Utils</tags>
+    <releaseNotes>https://github.com/Configit/SignalR/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\signalr.exe" target="tools"/>
+  </files>
+</package>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Configit.SignalR</id>
+    <title>Configit SignalR</title>
+    <version>__SIGNALR_PACKAGE_VERSION__</version>
+    <authors>Configit/Microsoft</authors>
+    <owners>Configit/Microsoft</owners>
+    <licenseUrl>__SIGNALR_LICENSE_URL__</licenseUrl>
+    <copyright>__SIGNALR_COPYRIGHT_NOTICE__</copyright>
+    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      [Configit Version]
+      Incredibly simple real-time web for .NET.
+      This package pulls in the server components and JavaScript client required to use SignalR in an ASP.NET application.
+    </description>
+    <language>en-US</language>
+    <tags>Microsoft AspNet SignalR AspNetSignalR websockets real-time realtime comet HTTP streaming</tags>
+    <releaseNotes>https://github.com/Configit/SignalR/releases</releaseNotes>
+    <dependencies>.
+      <dependency id="Configit.SignalR.JS" version="__SIGNALR_PACKAGE_VERSION__" />
+      <dependency id="Configit.SignalR.SystemWeb" version="__SIGNALR_PACKAGE_VERSION__" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="content\readme.txt" target="readme.txt" />
+  </files>
+</package>

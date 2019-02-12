@@ -1,5 +1,6 @@
 [Oo]bj/
 [Bb]in/
+.vs
 *.xap
 *.user
 /TestResults
@@ -27,8 +28,5 @@ PublishProfiles/
 *.log
 *.vspx
 *.log.txt
-/tests/Microsoft.AspNet.SignalR.FunctionalTests/artifacts/
-/samples/Microsoft.AspNet.SignalR.Client.WindowsStoreJavaScript.Samples/bld/
 jquery.signalR.js
 jquery.signalR.min.js
-xamarin/SignalRPackage/component/lib/mobile/
